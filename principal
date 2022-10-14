@@ -4,7 +4,7 @@
 	<script src="https://unpkg.com/axios/dist/axios.min.js" ></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Autonolixo tela inicial</title>
+	<title>Cadastro Realizado</title>
 
 	<style type="text/css">
 		
@@ -12,9 +12,15 @@
 		background-image: url(imagens/autonolixo.png);
 		background-position: fixed;
 		background-repeat: no-repeat;
-		background-size: 100%;
-		background-attachment: fixed;
+		background-size: 100%
 	}
+
+		.frase{
+			font-size: 60px;
+			text-align: center;
+			padding-top: 200px;
+			color: darkviolet;
+		}
 
 		.titulo{
 			text-align: center;
@@ -24,28 +30,19 @@
 
 		.conteudo{
 			text-align: center;
-			font-size: 50px;
-			color: darkviolet;
+			font-size: 30px;
+			color: red;
 		}
 
 	</style>
 	
-
-
 <body>
-
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-	<div class="conteudo">
-		Essa página ainda não foi criada em nosso projeto.
+	<div class="frase">
+		PARABÉNS! <br><br> CADASTRO REALIZADO COM SUCESSO!
 	</div>
-
+	<br><br><br><br>
 	<div class="conteudo">
-		Em breve concluíremos ela.
-	</div>
-
-	<div class="conteudo">
-		Att: Grupo 7!
+		<a href="index.html"> Voltar para tela inicial
 	</div>
 
 </body>
